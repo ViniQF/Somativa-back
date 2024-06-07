@@ -1,0 +1,53 @@
+body {
+    background-color: #1e1e1e; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#central {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    width: 30%; /* Largura dos projetos */
+    background-color: #333333; /* Cor de fundo dos projetos */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.projeto img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px;
+}
+
+.projeto h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.projeto p {
+    font-size: 0.9em;
+}
+
+.projeto a button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.projeto a button:hover {
+    background-color: #45a049; /* Cor de fundo do botão no hover */
+}
